@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trânsito</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("\transito.png");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .iframe-container {
+            position: absolute;
+            left: 283px;
+            top: 380px;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe
+            src="https://embed.waze.com/iframe?zoom=15&lat=-23.635167&lon=-46.710949&pin=1&ct=livemap" 
+            width="2600"
+            height="1404"
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
